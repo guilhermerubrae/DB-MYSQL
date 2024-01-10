@@ -60,7 +60,6 @@ ON tb_classes.id = tb_personagens.id_classe;
 SELECT * FROM tb_personagens
 INNER JOIN tb_classes
 ON tb_classes.id = tb_personagens.id_classe
-WHERE tb_personagens.id_classe = 5;
-
+WHERE tb_personagens.id_classe = 6;
 
     
